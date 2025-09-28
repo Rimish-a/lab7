@@ -24,7 +24,7 @@ cd tempdir
 docker build -t sampleapp .
 
 # Run container
-docker run -t -d -p 8080:8080 --name samplerunning sampleapp
+docker run -t -d -p 5050:5050 --name samplerunning sampleapp
 
 # Show running containers
 docker ps -a
