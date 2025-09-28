@@ -27,4 +27,4 @@ docker build -t sampleapp .
 docker run -t -d -p 5050:5050 --name samplerunning sampleapp
 
 # Show running containers
-docker ps -a
+
